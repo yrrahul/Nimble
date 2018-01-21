@@ -1,8 +1,9 @@
 package nimble.core;
 
+import static spark.Spark.*;
 
 public class Init {
     public static void main(String[] args) {
-        System.out.println("This is a test");
+        get("/hello", (req, res) -> "Hello World");
     }
 }
