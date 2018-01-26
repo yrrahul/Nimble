@@ -29,12 +29,6 @@ public class DocInitImpl implements DocInit {
 
     @OnWebSocketMessage
     public void addDocumentMeta(Session session, byte[] buf, int offset, int buflen) {
-        //DocumentColl docColl = DocumentColl.getInstance();
-        // DocumentDefImpl newDoc = new DocumentDefImpl();
-        //String doc = byt.toString();
-        // newDoc.addProp(doc);
-        //newDoc.setProps(doc);
-        //docColl.addDocument(newDoc);
         try {
             session.getRemote().sendString("message received");
         } catch (IOException e) {
