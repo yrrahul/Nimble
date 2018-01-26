@@ -8,7 +8,13 @@ import org.eclipse.jetty.websocket.api.annotations.WebSocket;
 import nimble.core.Document.*;
 
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.nio.Buffer;
+import java.nio.ByteBuffer;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -29,11 +35,13 @@ public class DocInitImpl implements DocInit {
     }
 
     @OnWebSocketMessage
-    public void addDocumentMeta(Session session, String doc) {
-        DocumentColl docColl = DocumentColl.getInstance();
-        DocumentDefImpl newDoc = new DocumentDefImpl();
-        newDoc.addProp(doc);
-        docColl.addDocument(newDoc);
+    public void addDocumentMeta(Session session, byte[] buf, int offset, int buflen) {
+        //DocumentColl docColl = DocumentColl.getInstance();
+        // DocumentDefImpl newDoc = new DocumentDefImpl();
+        //String doc = byt.toString();
+        // newDoc.addProp(doc);
+        //newDoc.setProps(doc);
+        //docColl.addDocument(newDoc);
         try {
             session.getRemote().sendString("message received");
         } catch (IOException e) {

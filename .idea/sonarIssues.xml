@@ -68,6 +68,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../NimbleDriver/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NimbleDriver/src/main/java/SampleSocket.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NimbleDriver/src/main/java/driver/core/Client.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NimbleDriver/src/main/java/driver/core/SampleSocket.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
