@@ -13,7 +13,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class FileWriteImpl implements FileWrite {
-
     @Override
     public boolean write(String path, ByteBuffer buf) {
         ByteBuffer test = ByteBuffer.allocateDirect(100);

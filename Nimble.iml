@@ -11,6 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.github.os72:protobuf-dynamic:0.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.4.1" level="project" />
     <orderEntry type="library" name="Maven: com.sparkjava:spark-core:2.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.13" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-server:9.4.6.v20170531" level="project" />
@@ -28,6 +30,7 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-client:9.4.6.v20170531" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-servlet:9.4.6.v20170531" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.4.6.v20170531" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.21" level="project" />
   </component>
   <component name="sonarModuleSettings">
     <option name="alternativeWorkingDirPath" value="" />
